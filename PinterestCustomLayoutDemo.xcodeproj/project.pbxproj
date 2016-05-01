@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		36FD770A1CC90E500031160A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD77091CC90E500031160A /* AppDelegate.swift */; };
-		36FD770C1CC90E500031160A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD770B1CC90E500031160A /* MasterViewController.swift */; };
 		36FD770E1CC90E500031160A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD770D1CC90E500031160A /* DetailViewController.swift */; };
 		36FD77111CC90E500031160A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FD770F1CC90E500031160A /* Main.storyboard */; };
 		36FD77131CC90E500031160A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FD77121CC90E500031160A /* Assets.xcassets */; };
 		36FD77161CC90E500031160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FD77141CC90E500031160A /* LaunchScreen.storyboard */; };
+		36FD771E1CC90F250031160A /* PinterestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD771D1CC90F250031160A /* PinterestCollectionViewController.swift */; };
+		36FD77201CC90F4A0031160A /* PinterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD771F1CC90F4A0031160A /* PinterestCollectionViewCell.swift */; };
+		36FD77221CC912920031160A /* PinDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD77211CC912920031160A /* PinDataSource.swift */; };
+		36FD77281CC916E20031160A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FD77261CC916E20031160A /* Images.xcassets */; };
+		36FD77291CC916E20031160A /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FD77271CC916E20031160A /* Photos.xcassets */; };
+		36FD772B1CC9173D0031160A /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36FD772A1CC9173D0031160A /* Photos.plist */; };
+		36FD772D1CC917810031160A /* PinLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD772C1CC917810031160A /* PinLayout.swift */; };
+		D57A426F1CCCF2990050474E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A426E1CCCF2990050474E /* Photo.swift */; };
+		D57A42711CCCF7080050474E /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57A42701CCCF7080050474E /* UIImage+Decompression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36FD77061CC90E500031160A /* PinterestCustomLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestCustomLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FD77091CC90E500031160A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36FD770B1CC90E500031160A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		36FD770D1CC90E500031160A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		36FD77101CC90E500031160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36FD77121CC90E500031160A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36FD77151CC90E500031160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36FD77171CC90E500031160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36FD771D1CC90F250031160A /* PinterestCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestCollectionViewController.swift; sourceTree = "<group>"; };
+		36FD771F1CC90F4A0031160A /* PinterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		36FD77211CC912920031160A /* PinDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinDataSource.swift; sourceTree = "<group>"; };
+		36FD77261CC916E20031160A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36FD77271CC916E20031160A /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
+		36FD772A1CC9173D0031160A /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		36FD772C1CC917810031160A /* PinLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinLayout.swift; sourceTree = "<group>"; };
+		D57A426E1CCCF2990050474E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = ../../PinterestCustomLayoutDemo/PinterestCustomLayoutDemo/Photo.swift; sourceTree = "<group>"; };
+		D57A42701CCCF7080050474E /* UIImage+Decompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +73,31 @@
 			isa = PBXGroup;
 			children = (
 				36FD77091CC90E500031160A /* AppDelegate.swift */,
-				36FD770B1CC90E500031160A /* MasterViewController.swift */,
 				36FD770D1CC90E500031160A /* DetailViewController.swift */,
 				36FD770F1CC90E500031160A /* Main.storyboard */,
+				36FD772A1CC9173D0031160A /* Photos.plist */,
+				D57A42701CCCF7080050474E /* UIImage+Decompression.swift */,
+				36FD77241CC916C70031160A /* Models */,
 				36FD77121CC90E500031160A /* Assets.xcassets */,
+				36FD77261CC916E20031160A /* Images.xcassets */,
+				36FD77271CC916E20031160A /* Photos.xcassets */,
 				36FD77141CC90E500031160A /* LaunchScreen.storyboard */,
 				36FD77171CC90E500031160A /* Info.plist */,
+				36FD771D1CC90F250031160A /* PinterestCollectionViewController.swift */,
+				36FD771F1CC90F4A0031160A /* PinterestCollectionViewCell.swift */,
+				36FD77211CC912920031160A /* PinDataSource.swift */,
+				36FD772C1CC917810031160A /* PinLayout.swift */,
 			);
 			path = PinterestCustomLayoutDemo;
+			sourceTree = "<group>";
+		};
+		36FD77241CC916C70031160A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D57A426E1CCCF2990050474E /* Photo.swift */,
+			);
+			name = Models;
+			path = ../../Pinterest/Pinterest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				36FD77161CC90E500031160A /* LaunchScreen.storyboard in Resources */,
+				36FD77281CC916E20031160A /* Images.xcassets in Resources */,
 				36FD77131CC90E500031160A /* Assets.xcassets in Resources */,
+				36FD77291CC916E20031160A /* Photos.xcassets in Resources */,
 				36FD77111CC90E500031160A /* Main.storyboard in Resources */,
+				36FD772B1CC9173D0031160A /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57A426F1CCCF2990050474E /* Photo.swift in Sources */,
+				36FD772D1CC917810031160A /* PinLayout.swift in Sources */,
+				36FD77201CC90F4A0031160A /* PinterestCollectionViewCell.swift in Sources */,
 				36FD770E1CC90E500031160A /* DetailViewController.swift in Sources */,
-				36FD770C1CC90E500031160A /* MasterViewController.swift in Sources */,
 				36FD770A1CC90E500031160A /* AppDelegate.swift in Sources */,
+				D57A42711CCCF7080050474E /* UIImage+Decompression.swift in Sources */,
+				36FD771E1CC90F250031160A /* PinterestCollectionViewController.swift in Sources */,
+				36FD77221CC912920031160A /* PinDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +243,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -241,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,6 +331,7 @@
 				36FD771C1CC90E500031160A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
